@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="726pt" height="1320pt" viewBox="0.00 0.00 725.70 1320.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1316)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1316 721.7,-1316 721.7,4 -4,4"></polygon>
+<!-- Load dataset with normal and glaucoma images -->
+<g id="node1" class="node">
+<title>Load dataset with normal and glaucoma images</title>
+<ellipse fill="lightblue" stroke="black" cx="188.02" cy="-1258" rx="138.42" ry="54"></ellipse>
+<text text-anchor="middle" x="188.02" y="-1254.4" font-family="Helvetica,sans-Serif" font-size="12.00">Load dataset with normal and glaucoma images</text>
+</g>
+<!-- Initialize pre&#45;trained deep learning model -->
+<g id="node2" class="node">
+<title>Initialize pre-trained deep learning model</title>
+<ellipse fill="lightblue" stroke="black" cx="188.02" cy="-1113" rx="118.99" ry="54"></ellipse>
+<text text-anchor="middle" x="188.02" y="-1109.4" font-family="Helvetica,sans-Serif" font-size="12.00">Initialize pre-trained deep learning model</text>
+</g>
+<!-- Load dataset with normal and glaucoma images&#45;&gt;Initialize pre&#45;trained deep learning model -->
+<g id="edge1" class="edge">
+<title>Load dataset with normal and glaucoma images-&gt;Initialize pre-trained deep learning model</title>
+<path fill="none" stroke="black" d="M188.02,-1203.75C188.02,-1197.24 188.02,-1190.51 188.02,-1183.8"></path>
+<polygon fill="black" stroke="black" points="193.27,-1183.81 188.02,-1168.81 182.77,-1183.81 193.27,-1183.81"></polygon>
+</g>
+<!-- Is model Training and Optimization complete? -->
+<g id="node10" class="node">
+<title>Is model Training and Optimization complete?</title>
+<polygon fill="lightgray" stroke="black" points="188.02,-1022 0,-968 188.02,-914 376.04,-968 188.02,-1022"></polygon>
+<text text-anchor="middle" x="188.02" y="-964.4" font-family="Helvetica,sans-Serif" font-size="12.00">Is model Training and Optimization complete?</text>
+</g>
+<!-- Initialize pre&#45;trained deep learning model&#45;&gt;Is model Training and Optimization complete? -->
+<g id="edge2" class="edge">
+<title>Initialize pre-trained deep learning model-&gt;Is model Training and Optimization complete?</title>
+<path fill="none" stroke="black" d="M188.02,-1058.75C188.02,-1052.24 188.02,-1045.51 188.02,-1038.8"></path>
+<polygon fill="black" stroke="black" points="193.27,-1038.81 188.02,-1023.81 182.77,-1038.81 193.27,-1038.81"></polygon>
+</g>
+<!-- Re&#45;train and fine&#45;tune the model -->
+<g id="node3" class="node">
+<title>Re-train and fine-tune the model</title>
+<path fill="none" stroke="black" d="M266.02,-866C266.02,-866 74.02,-866 74.02,-866 68.02,-866 62.02,-860 62.02,-854 62.02,-854 62.02,-770 62.02,-770 62.02,-764 68.02,-758 74.02,-758 74.02,-758 266.02,-758 266.02,-758 272.02,-758 278.02,-764 278.02,-770 278.02,-770 278.02,-854 278.02,-854 278.02,-860 272.02,-866 266.02,-866"></path>
+<text text-anchor="middle" x="170.02" y="-808.4" font-family="Helvetica,sans-Serif" font-size="12.00">Re-train and fine-tune the model</text>
+</g>
+<!-- Provide an image for prediction -->
+<g id="node4" class="node">
+<title>Provide an image for prediction</title>
+<path fill="none" stroke="black" d="M500.02,-866C500.02,-866 308.02,-866 308.02,-866 302.02,-866 296.02,-860 296.02,-854 296.02,-854 296.02,-770 296.02,-770 296.02,-764 302.02,-758 308.02,-758 308.02,-758 500.02,-758 500.02,-758 506.02,-758 512.02,-764 512.02,-770 512.02,-770 512.02,-854 512.02,-854 512.02,-860 506.02,-866 500.02,-866"></path>
+<text text-anchor="middle" x="404.02" y="-808.4" font-family="Helvetica,sans-Serif" font-size="12.00">Provide an image for prediction</text>
+</g>
+<!-- Generate classification output (normal or glaucoma) -->
+<g id="node5" class="node">
+<title>Generate classification output (normal or glaucoma)</title>
+<path fill="none" stroke="black" d="M537.75,-721C537.75,-721 270.29,-721 270.29,-721 264.29,-721 258.29,-715 258.29,-709 258.29,-709 258.29,-625 258.29,-625 258.29,-619 264.29,-613 270.29,-613 270.29,-613 537.75,-613 537.75,-613 543.75,-613 549.75,-619 549.75,-625 549.75,-625 549.75,-709 549.75,-709 549.75,-715 543.75,-721 537.75,-721"></path>
+<text text-anchor="middle" x="404.02" y="-663.4" font-family="Helvetica,sans-Serif" font-size="12.00">Generate classification output (normal or glaucoma)</text>
+</g>
+<!-- Provide an image for prediction&#45;&gt;Generate classification output (normal or glaucoma) -->
+<g id="edge5" class="edge">
+<title>Provide an image for prediction-&gt;Generate classification output (normal or glaucoma)</title>
+<path fill="none" stroke="black" d="M404.02,-757.75C404.02,-751.24 404.02,-744.51 404.02,-737.8"></path>
+<polygon fill="black" stroke="black" points="409.27,-737.81 404.02,-722.81 398.77,-737.81 409.27,-737.81"></polygon>
+</g>
+<!-- LIME&#45;Based Interpretability -->
+<g id="node6" class="node">
+<title>LIME-Based Interpretability</title>
+<path fill="none" stroke="black" d="M500.02,-576C500.02,-576 308.02,-576 308.02,-576 302.02,-576 296.02,-570 296.02,-564 296.02,-564 296.02,-480 296.02,-480 296.02,-474 302.02,-468 308.02,-468 308.02,-468 500.02,-468 500.02,-468 506.02,-468 512.02,-474 512.02,-480 512.02,-480 512.02,-564 512.02,-564 512.02,-570 506.02,-576 500.02,-576"></path>
+<text text-anchor="middle" x="404.02" y="-518.4" font-family="Helvetica,sans-Serif" font-size="12.00">LIME-Based Interpretability</text>
+</g>
+<!-- Generate classification output (normal or glaucoma)&#45;&gt;LIME&#45;Based Interpretability -->
+<g id="edge6" class="edge">
+<title>Generate classification output (normal or glaucoma)-&gt;LIME-Based Interpretability</title>
+<path fill="none" stroke="black" d="M404.02,-612.75C404.02,-606.24 404.02,-599.51 404.02,-592.8"></path>
+<polygon fill="black" stroke="black" points="409.27,-592.81 404.02,-577.81 398.77,-592.81 409.27,-592.81"></polygon>
+</g>
+<!-- LLAMA 3.2 90B Vision Model (Image Analysis) -->
+<g id="node7" class="node">
+<title>LLAMA 3.2 90B Vision Model (Image Analysis)</title>
+<path fill="none" stroke="black" d="M439.41,-420C439.41,-420 198.63,-420 198.63,-420 192.63,-420 186.63,-414 186.63,-408 186.63,-408 186.63,-324 186.63,-324 186.63,-318 192.63,-312 198.63,-312 198.63,-312 439.41,-312 439.41,-312 445.41,-312 451.41,-318 451.41,-324 451.41,-324 451.41,-408 451.41,-408 451.41,-414 445.41,-420 439.41,-420"></path>
+<text text-anchor="middle" x="319.02" y="-362.4" font-family="Helvetica,sans-Serif" font-size="12.00">LLAMA 3.2 90B Vision Model (Image Analysis)</text>
+</g>
+<!-- LIME&#45;Based Interpretability&#45;&gt;LLAMA 3.2 90B Vision Model (Image Analysis) -->
+<g id="edge7" class="edge">
+<title>LIME-Based Interpretability-&gt;LLAMA 3.2 90B Vision Model (Image Analysis)</title>
+<path fill="none" stroke="black" d="M331.59,-467.53C327.29,-462.04 323.54,-456.19 320.61,-450 318.58,-445.73 317.05,-441.18 315.92,-436.51"></path>
+<polygon fill="black" stroke="black" points="321.13,-435.88 313.7,-421.83 310.75,-437.45 321.13,-435.88"></polygon>
+<text text-anchor="middle" x="397.31" y="-441" font-family="Helvetica,sans-Serif" font-size="10.00">Input visual explanation from LIME</text>
+</g>
+<!-- LLAMA 3.1 70B LLM (Reasoning and Explanation) -->
+<g id="node8" class="node">
+<title>LLAMA 3.1 70B LLM (Reasoning and Explanation)</title>
+<path fill="none" stroke="black" d="M533.44,-264C533.44,-264 272.6,-264 272.6,-264 266.6,-264 260.6,-258 260.6,-252 260.6,-252 260.6,-168 260.6,-168 260.6,-162 266.6,-156 272.6,-156 272.6,-156 533.44,-156 533.44,-156 539.44,-156 545.44,-162 545.44,-168 545.44,-168 545.44,-252 545.44,-252 545.44,-258 539.44,-264 533.44,-264"></path>
+<text text-anchor="middle" x="403.02" y="-206.4" font-family="Helvetica,sans-Serif" font-size="12.00">LLAMA 3.1 70B LLM (Reasoning and Explanation)</text>
+</g>
+<!-- LIME&#45;Based Interpretability&#45;&gt;LLAMA 3.1 70B LLM (Reasoning and Explanation) -->
+<g id="edge9" class="edge">
+<title>LIME-Based Interpretability-&gt;LLAMA 3.1 70B LLM (Reasoning and Explanation)</title>
+<path fill="none" stroke="black" d="M464.12,-467.91C468.05,-462.24 471.46,-456.25 474.02,-450 502.35,-380.92 502.59,-350.98 474.02,-282 473.55,-280.85 473.04,-279.71 472.51,-278.58"></path>
+<polygon fill="black" stroke="black" points="477.13,-276.08 465.04,-265.77 468.06,-281.37 477.13,-276.08"></polygon>
+<text text-anchor="middle" x="606.53" y="-363" font-family="Helvetica,sans-Serif" font-size="10.00">Provide superpixel number and importance details</text>
+</g>
+<!-- LLAMA 3.2 90B Vision Model (Image Analysis)&#45;&gt;LLAMA 3.1 70B LLM (Reasoning and Explanation) -->
+<g id="edge8" class="edge">
+<title>LLAMA 3.2 90B Vision Model (Image Analysis)-&gt;LLAMA 3.1 70B LLM (Reasoning and Explanation)</title>
+<path fill="none" stroke="black" d="M312.66,-311.7C313.26,-301.49 315.23,-291.14 319.49,-282 320.12,-280.64 320.8,-279.3 321.51,-277.97"></path>
+<polygon fill="black" stroke="black" points="325.73,-281.11 329.56,-265.69 316.95,-275.35 325.73,-281.11"></polygon>
+<text text-anchor="middle" x="396.75" y="-285" font-family="Helvetica,sans-Serif" font-size="10.00">Incorporate Vision Model response</text>
+</g>
+<!-- Final explanation -->
+<g id="node9" class="node">
+<title>Final explanation</title>
+<ellipse fill="lightblue" stroke="black" cx="403.02" cy="-54" rx="108" ry="54"></ellipse>
+<text text-anchor="middle" x="403.02" y="-50.4" font-family="Helvetica,sans-Serif" font-size="12.00">Final explanation</text>
+</g>
+<!-- LLAMA 3.1 70B LLM (Reasoning and Explanation)&#45;&gt;Final explanation -->
+<g id="edge10" class="edge">
+<title>LLAMA 3.1 70B LLM (Reasoning and Explanation)-&gt;Final explanation</title>
+<path fill="none" stroke="black" d="M403.02,-155.57C403.02,-145.66 403.02,-135.16 403.02,-124.85"></path>
+<polygon fill="black" stroke="black" points="408.27,-124.85 403.02,-109.85 397.77,-124.85 408.27,-124.85"></polygon>
+<text text-anchor="middle" x="485.86" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">Generate detailed textual explanation</text>
+</g>
+<!-- Is model Training and Optimization complete?&#45;&gt;Re&#45;train and fine&#45;tune the model -->
+<g id="edge3" class="edge">
+<title>Is model Training and Optimization complete?-&gt;Re-train and fine-tune the model</title>
+<path fill="none" stroke="black" d="M180.07,-899.02C179.44,-893.56 178.79,-888.04 178.15,-882.56"></path>
+<polygon fill="black" stroke="black" points="174.85,-899.5 181.8,-913.79 185.27,-898.28 174.85,-899.5"></polygon>
+<polygon fill="black" stroke="black" points="183.4,-882.21 176.44,-867.92 172.97,-883.42 183.4,-882.21"></polygon>
+<text text-anchor="middle" x="185.95" y="-887" font-family="Helvetica,sans-Serif" font-size="10.00">No</text>
+</g>
+<!-- Is model Training and Optimization complete?&#45;&gt;Provide an image for prediction -->
+<g id="edge4" class="edge">
+<title>Is model Training and Optimization complete?-&gt;Provide an image for prediction</title>
+<path fill="none" stroke="black" d="M241.41,-928.93C263.86,-912.93 290.59,-893.87 315.82,-875.89"></path>
+<polygon fill="black" stroke="black" points="318.84,-880.18 328.01,-867.19 312.75,-871.63 318.84,-880.18"></polygon>
+<text text-anchor="middle" x="311.11" y="-887" font-family="Helvetica,sans-Serif" font-size="10.00">Yes</text>
+</g>
+</g>
+</svg>
