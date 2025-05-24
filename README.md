@@ -3,12 +3,12 @@
   <p><strong>A multi-modal, interpretable AI system for glaucoma detection and clinical insight generation</strong></p>
   <p>
     <a href="#overview">Overview</a> •
-    <a href="#framework-architecture">Architecture</a> •
+    <a href="#architecture">Architecture</a> •
     <a href="#technologies">Technologies</a> •
     <a href="#project-structure">Project Structure</a> •
     <a href="#installation">Installation</a> •
     <a href="#usage">Usage</a> •
-    <a href="#results-and-visualizations">Results</a> •
+    <a href="#results">Results</a> •
     <a href="#contributing">Contributing</a> •
     <a href="#snapshots">Snapshots</a>
   </p>
@@ -16,7 +16,8 @@
 
 ---
 
-## 📝 Overview
+<a name="overview"></a>
+## Overview
 
 Explainable AI-Based Glaucoma Detection leverages Transfer Learning, LIME, and LLMs to deliver accurate and interpretable glaucoma screening from fundus images.
 
@@ -31,7 +32,8 @@ Explainable AI-Based Glaucoma Detection leverages Transfer Learning, LIME, and L
 
 ---
 
-## 🏗️ Framework Architecture
+<a name="architecture"></a>
+## Framework Architecture
 
 1. <strong>Image Upload:</strong> Users upload fundus images for evaluation
 2. <strong>Classification:</strong> Pre-trained CNN model classifies images as <em>Normal</em> or <em>Glaucoma</em>
@@ -42,7 +44,8 @@ Explainable AI-Based Glaucoma Detection leverages Transfer Learning, LIME, and L
 
 ---
 
-## 🚀 Technologies
+<a name="technologies"></a>
+## Technologies
 
 - <strong>Frontend:</strong> React.js
 - <strong>Backend:</strong> Express.js, FastAPI
@@ -51,7 +54,8 @@ Explainable AI-Based Glaucoma Detection leverages Transfer Learning, LIME, and L
 
 ---
 
-## 📁 Project Structure
+<a name="project-structure"></a>
+## Project Structure
 
 ```bash
 Project/
@@ -82,7 +86,8 @@ Project/
 
 ---
 
-## ⚙️ Installation
+<a name="installation"></a>
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -114,6 +119,7 @@ PORT=5000
 
 ---
 
+<a name="usage"></a>
 ## ▶️ Usage
 
 ### 1. Start MongoDB
@@ -141,6 +147,7 @@ Access the application at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
+<a name="results"></a>
 ## 📊 Results and Visualizations
 
 - **Classification Result:** Identifies the input image as <em>Normal</em> or <em>Glaucoma</em>
@@ -157,6 +164,7 @@ Access the application at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
+<a name="contributing"></a>
 ## 🤝 Contributing
 
 We welcome contributions! Follow these steps:
@@ -168,6 +176,7 @@ We welcome contributions! Follow these steps:
 
 ---
 
+<a name="snapshots"></a>
 ## 🖼️ Snapshots
 
 Here are some snapshots of the system in action:
